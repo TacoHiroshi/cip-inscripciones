@@ -19,7 +19,7 @@ class CreateAsistentesTable extends Migration
             $table->string('apellido_m',60);
             $table->string('nombre',80);
             $table->string('dni',8);
-            $table->dateTime('fecha_nacimiento');
+            $table->date('fecha_nacimiento');
             $table->enum('sexo',['Masculino','Femenino','Prefiero no decirlo']);
             $table->string('ubi_actual',100);
             $table->string('centro_lab_act',100);
