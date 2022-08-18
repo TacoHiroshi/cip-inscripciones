@@ -21,10 +21,11 @@ class CreateAsistentesTable extends Migration
             $table->string('dni',8);
             $table->date('fecha_nacimiento');
             $table->enum('sexo',['Masculino','Femenino','Prefiero no decirlo']);
+            $table->string('lugar_nac',100);
             $table->string('ubi_actual',100);
             $table->string('centro_lab_act',100);
             $table->string('cargo',100);
-            $table->enum('grado_academico',['Doctorado','Maestria','Bachiller','Pregrado','Tecnico','Otros']);
+            $table->enum('grado_academico',['Doctor','Maestro','Bachiller','Pregrado','Tecnico','Otros']);
             $table->string('profesion',100);
             $table->string('correo',100);
             $table->string('num_celular',9);

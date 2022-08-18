@@ -15,6 +15,7 @@ class AsistentesController extends Controller
     public function index()
     {
         //
+
     }
 
     /**
@@ -35,7 +36,30 @@ class AsistentesController extends Controller
      */
     public function store(Request $request)
     {
+        //validate
+        $request->validate([
+
+        ]);
         //
+        $asistente = new Asistentes;
+        $asistente->apellido_p = ;
+        $asistente->apellido_m = ;
+        $asistente->nombre = ;
+        $asistente->dni = ;
+        $asistente->fecha_nacimiento = ;
+        $asistente->sexo = ;
+        $asistente->ubi_actual = ;
+        $asistente->centro_lab_act = ;
+        $asistente->cargo = ;
+        $asistente->grado_academico = ;
+        $asistente->profesion = ;
+        $asistente->correo = ;
+        $asistente->num_celular = ;
+        $asistente->agremiado = ;
+        $asistente->num_colegiatura = ;
+        $asistente->save();
+
+        //respuesta
     }
 
     /**
