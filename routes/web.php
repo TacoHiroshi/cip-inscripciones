@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Models\Asistentes;
+use App\Http\Controllers\AsistentesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('asistentes',Asistentes::class);
+Route::resource('asistentes',AsistentesController::class);
