@@ -13,8 +13,8 @@ use App\Http\Controllers\AsistentesController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
-Route::resource('asistentes',AsistentesController::class);
+Route::resource('/',AsistentesController::class);

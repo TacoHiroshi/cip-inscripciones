@@ -34,7 +34,7 @@
                 <div class="bg-secondary rounded h-100 p-4">
                     <h3 class="mb-4 text-center">Inscripciones - MODULO III</h3>
 
-                    <form action="{{route('asistentes.store')}}" method="POST">
+                    <form action="{{route('store')}}" method="POST">
 
                         <input type="hidden" name="_token" id="token" value="{{ csrf_token() }}">
 
@@ -166,11 +166,11 @@
         <div class="bg-secondary rounded-top p-4">
             <div class="row">
                 <div class="col-12 col-sm-6 text-center text-sm-start">
-                    <a href="#"> Capitulo de Ingenieros Industriales y de Sistemas </a> 
+                    <a href="#"> Capitulo de Ingenieros Industriales y de Sistemas </a>
                 </div>
                 <div class="col-12 col-sm-6 text-center text-sm-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    CIP PUNO 
+                    CIP PUNO
                 </div>
             </div>
         </div>
